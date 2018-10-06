@@ -1,0 +1,45 @@
+{
+  "name": "sha",
+  "version": "0.0.1",
+  "description": "Sha Framework",
+  "main": "./index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxfriday/Sha.git"
+  },
+  "keywords": [
+    "Sha",
+    "Framework",
+    "JS",
+    "JavaScript"
+  ],
+  "author": "lxfriday",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6",
+    "webpack-merge": "^4.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/lxfriday/Sha/issues"
+  },
+  "homepage": "https://github.com/lxfriday/Sha#readme"
+}
